@@ -1,0 +1,17 @@
+:root {
+    /* --bs-secondary: ligthgray; */
+}
+
+#carouselExampleControlsNoTouching {
+    box-shadow: 0px 5px 10px 10px black;
+    height: 410px;
+}
+
+.sabermas {
+    cursor: pointer;
+}
+
+.sabermas:hover {
+    background-color: lightgray !important;
+    color: black !important;
+}
