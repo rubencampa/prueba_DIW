@@ -11,68 +11,35 @@
 </head>
 
 
-<body>
+<body class="bg-light">
 
-    <header class="p-5">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-4 my-0 mx-auto bg-secondary">
-                    <h1>Logo</h1>
+    <header class="bg-header bg-secondary p-2">
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-around">
+                <div class="col-md-2">
+                    <img src="img/img/logo_RG_480_azul.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-md-4 my-0 mx-auto bg-secondary">
-                    <h1>Boton vuelta moodle</h1>
+                <div class="col-md-auto">
+                    <h1 class="text-center text-white p-5">Zona del Estudiante</h1>
+                </div>  
+                <div class="col-md-2">
+                    <a class="btn btn-secondary" href="https://ciclos.iesruizgijon.es/">Volver a la moodle</a>
                 </div>
             </div>
         </div>
     </header>
-
-    <!--     
-    <nav class="my-5 mx-auto w-75">
-        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <button class="nav-link active" id="nav-principal-smr" data-bs-toggle="tab" data-bs-target="#nav-smr" type="button" role="tab" aria-controls="nav-home" aria-selected="true">SMR</button>
-            <button class="nav-link" id="nav-principal-daw" data-bs-toggle="tab" data-bs-target="#nav-daw" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">DAW</button>
-        </div>
-    </nav> -->
-    <!-- holi -->
-    <!-- <div class="conatiner-fluid w-75 mx-auto my-5">
-        <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-smr" role="tabpanel" aria-labelledby="nav-home-tab">
-                <nav class="my-5 mx-auto w-75">
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <button class="nav-link active" id="nav-smr-info" data-bs-toggle="tab" data-bs-target="#nav-info-smr" type="button" role="tab" aria-controls="nav-home-smr" aria-selected="true">SMR</button>
-                        <button class="nav-link" id="nav-smr-itinerario" data-bs-toggle="tab" data-bs-target="#nav-smr-itinerario" type="button" role="tab" aria-controls="nav-itinerario" aria-selected="false">Itinerario</button>
-                        <button class="nav-link" id="nav-smr-horario" data-bs-toggle="tab" data-bs-target="#nav-horario-smr" type="button" role="tab" aria-controls="nav-horario" aria-selected="false">Horario</button>
-                    </div>
-                </nav>
-
-                <div class="conatiner-fluid w-75 mx-auto my-5">
-                    <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="nav-info-smr" role="tabpanel" aria-labelledby="nav-home-tab">Info SMR</div>
-                        <div class="tab-pane fade" id="nav-itinerario-smr" role="tabpanel" aria-labelledby="nav-profile-tab">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae dolorem exercitationem necessitatibus nulla eum, minima doloribus esse officia, sequi modi perspiciatis nobis fuga voluptatibus amet ab atque doloremque repudiandae
-                            quas!
-                        </div>
-                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quod nisi ad suscipit et excepturi nesciunt officia maiores, amet exercitationem tempore, sunt consectetur dolores quaerat ipsa velit rerum? Aut, laborum!</div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="nav-daw" role="tabpanel" aria-labelledby="nav-profile-tab">daw</div>
-        </div>
-    </div> -->
-
-
-    <div id="carouselExampleControlsNoTouching" class="carousel slide w-50 text-center my-0 mx-auto" data-bs-touch="false" data-bs-interval="false" width="50%">
+    <div id="carouselExampleControlsNoTouching" class="carousel slide w-50 text-center my-5 mx-auto" data-bs-touch="false" data-bs-interval="false" width="50%">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <iframe width="100%" height="415" src="https://www.youtube.com/embed/nP-FKfa5oXY?autoplay=0&controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                <div class="carousel-caption d-none d-md-block">
-                    <!-- <button class="btn btn-info" id="boton1" onclick="daw()">Saber más</button> -->
-                    <a class="sabermas pe-auto text-white fw-bold text-decoration-none bg-secondary p-2 rounded" id="boton1" onclick="daw()">Saber más</a>
+                <iframe width="100%" height="415" src="https://www.youtube.com/embed/xOz4lmXS4KA?autoplay=0&controls=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                <div class="carousel-caption d-none d-md-block opacity-75">
+                    <p class="bg-secondary w-25 p-2 mb-3 mx-auto shadow-lg rounded">DAW</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <iframe width="100%" height="415" src="https://www.youtube.com/embed/nP-FKfa5oXY?controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                <div class="carousel-caption d-none d-md-block">
-                    <button class="btn btn-success" id="boton1" onclick="smr()">Saber más</button>
+                <div class="carousel-caption d-none d-md-block opacity-75">
+                    <p class="bg-secondary w-25 p-2 mb-3 mx-auto shadow-lg rounded">SMR</p>
                 </div>
             </div>
         </div>
@@ -86,29 +53,459 @@
         </button>
     </div>
 
-
     <!-- <button class="btn btn-success " id="boton1" onclick="daw()">saber más</button> -->
 
+    <div class="container my-5 border border-secondary rounded bg-white">
+       
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs|pills my-0 mx-auto" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-dark" id="profile-tab" data-bs-toggle="tab" data-bs-target="#contSMR" type="button" role="tab" aria-controls="profile" aria-selected="false">SMR</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-dark" id="messages-tab" data-bs-toggle="tab" data-bs-target="#contDAW" type="button" role="tab" aria-controls="messages" aria-selected="false">DAW</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-dark" id="profile-tab" data-bs-toggle="tab" data-bs-target="#contPasen" type="button" role="tab" aria-controls="profile" aria-selected="false">PASEN</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-dark" id="messages-tab" data-bs-toggle="tab" data-bs-target="#contConvalidaciones" type="button" role="tab" aria-controls="messages" aria-selected="false">Convalidaciones</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-dark" id="messages-tab" data-bs-toggle="tab" data-bs-target="#contFCT" type="button" role="tab" aria-controls="messages" aria-selected="false">FCT</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-dark" id="messages-tab" data-bs-toggle="tab" data-bs-target="#contInstancia" type="button" role="tab" aria-controls="messages" aria-selected="false">Instancia</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-dark" id="messages-tab" data-bs-toggle="tab" data-bs-target="#itinerarios" type="button" role="tab" aria-controls="messages" aria-selected="false">Itinerarios Formativos</a>
+          </li>
+        </ul>
+        
+        <!-- Tab panes -->
+        <div class="tab-content p-5">
+          <!-- SMR -->
+          <div class="tab-pane active" id="contSMR" role="tabpanel" aria-labelledby="zona-smr">
+            <div id="" class=" container mt-5">
+                <h2 class="text-center">
+                    Ciclo SMR
+                </h2>
+                <p class="text-center">En el IES Ruiz Gijón se imparte el Ciclo Formativo de Grado Medio "Sistemas Microinformáticos y Redes".</p>
+                
+                  <div class="row d-flex space-between p-4 border border-light-2 rounded">
+          
+                  <div class="col col-md-6 p-4">
+                      <h4 class="text-center pb-1">Características del ciclo</h4>
+                      <ul>
+                          <li>
+                            Título obtenido:
+                            <strong>Técnico en Sistemas Microinformáticos y Redes.</strong>.
+                          </li>
+                          <li>
+                            2000 horas de duración repartidas durante dos cursos académicos.
+                          </li>
+                          <li>
+                            410 horas de prácticas durante el segundo curso en empresas del sector informático.
+                          </li>
+                          <li>Enseñanzas de eminente carácter práctico.</li>
+                          <li>
+                            Uso de plataforma online de aprendizaje:
+                            <a href="https://ciclos.iesruizgijon.es/login/index.php">ciclos.iesruizgijon.es</a>
+                          </li>
+                        </ul>
+                
+                            <ul>
+                                <li>
+                                  Módulos profesionales:<br /><br />
+                                  <ul>
+                                    <li>
+                                      Primer curso
+                                      <ul>
+                                        <li>Redes Locales</li>
+                                        <li>Montaje y Mantenimiento de Equipo</li>
+                                        <li>Sistemas Operativos</li>
+                                        <li>
+                                            Aplicaciones Ofimáticas
+                                        </li>
+                                        <li>Formación y Orientación Laboral<br /><br /></li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      Segundo curso<br />
+                                      <ul>
+                                        <li>Servicios en Red</li>
+                                        <li>Aplicaciones Web</li>
+                                        <li>Sistemas Operativos en Red</li>
+                                        <li>Empresa e Iniciativa Emprendedora</li>
+                                        <li>Libre Configuración</li>
+                                        <p>Formación en Centros de trabajo</p>
+                                      </ul>
+                                    </p>
+                                  </ul>
+                              </ul>
+                      </div>
+                      <div class="col col-md-6">
+                          <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Horario 1º SMR
+                                  </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                      <img class="img-fluid" src="img/img/1smr.jpg" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Horario 2º SMR
+                                  </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                      <img class="img-fluid" src="img/img/2_smr.jpg" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                  </div>
+                </div>
+          </div>
 
-    <div id="prueba" class="text-center m-5 p-5 w-75 ">
-        DAAAWWWWWWW Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum exercitationem dignissimos a aliquid illum eos voluptate optio fuga quas distinctio! Adipisci, voluptas accusamus. Dicta sint pariatur possimus nemo dignissimos praesentium?
+          <!-- DAW -->
+          <div class="tab-pane fade" id="contDAW" role="tabpanel" aria-labelledby="home-tab">
+            <div id="" class=" container mt-5">
+                <h2 class="text-center">
+                  Ciclo Grado Superior "Desarrollo de Aplicaciones Web"
+                </h2>
+                
+                  <div class="row d-flex space-between p-4 border border-light-2 rounded">
+          
+                  <div class="col col-md-6 p-4">
+                      <h4 class="text-center pb-1">Características del ciclo</h4>
+                      <ul>
+                          <li>
+                            Título obtenido:
+                            <strong>Técnico Superior en Desarrollo de Aplicaciones Web</strong>.
+                          </li>
+                          <li>
+                            2000 horas de duración repartidas durante dos cursos académicos.
+                          </li>
+                          <li>
+                            370 horas de prácticas durante el segundo curso en empresas del
+                            sector.
+                          </li>
+                          <li>Enseñanzas de eminente carácter práctico.</li>
+                          <li>
+                            Uso de plataforma online de aprendizaje:
+                            <a href="https://ciclos.iesruizgijon.es/login/index.php"
+                              >ciclos.iesruizgijon.es</a
+                            >
+                          </li>
+                          <li>
+                            <strong>20</strong> alumnos por clase, con un ordenador por alumno
+                          </li>
+                          <li>
+                            Un turno de <strong>mañana</strong> solo para primero de Ciclo (de
+                            8:00 a 14:30 h. de lunes a viernes) y un turno de
+                            <strong>tarde </strong>para primero y segundo de Ciclo (de 16:00 a
+                            22:00 h. de lunes a jueves y de 15:00 a 21:00 h. los viernes).
+                          </li>
+                        </ul>
+                
+                            <ul>
+                                <li>
+                                  Módulos profesionales:<br /><br />
+                                  <ul>
+                                    <li>
+                                      Primer curso
+                                      <ul>
+                                        <li>Sistemas informáticos</li>
+                                        <li>Bases de datos</li>
+                                        <li>Programación</li>
+                                        <li>
+                                          Lenguajes de marcas y sistemas de gestión de información
+                                        </li>
+                                        <li>Entornos de desarrollo</li>
+                                        <li>Formación y Orientación Laboral<br /><br /></li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      Segundo curso<br />
+                                      <ul>
+                                        <li>Desarrollo web en entorno cliente</li>
+                                        <li>Desarrollo web en entorno servidor</li>
+                                        <li>Despliegue de aplicaciones web</li>
+                                        <li>Diseño de interfaces web</li>
+                                        <li>Empresa e Iniciativa Emprendedora</li>
+                                        <li>Horas de libre Configuración</li>
+                                        <li>Proyecto de desarrollo de aplicaciones web</li>
+                                        <p>Formación en Centros de trabajo</p>
+                                      </ul>
+                                    </p>
+                                  </ul>
+                              </ul>
+                      </div>
+                      <div class="col col-md-6">
+                          <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Horario 1º DAW Mañana
+                                  </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                      <img class="img-fluid" src="img/img/1daw_mañana.jpg" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Horario 1º DAW Tarde
+                                  </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                      <img class="img-fluid" src="img/img/1daw_tarde.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Horario 2º DAW Mañana
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                      <img class="img-fluid" src="img/img/2daw_mañana.jpg" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                      Horario 2º DAW Tarde
+                                    </button>
+                                  </h2>
+                                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <img class="img-fluid" src="img/img/2daw_tarde.jpg" alt="">
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                      </div>
+                  </div>
+                  </div>
+          </div>
+
+          <!-- Pasen -->
+          <div class="tab-pane fade" id="contPasen" role="tabpanel" aria-labelledby="profile-tab">
+            <div id="" class="container mt-5 px-5">
+                <h2 class="text-center">
+                  Pasen
+                </h2>
+                <div class="mb-4">
+                    <h3 class="text-secondary pb-3">¿Que es PASEN?</h3>
+                    <p>PASEN es el módulo de Séneca que permite la comunicación entre los centros educativos y las familias, tutores legales y alumnado, ofreciendo una serie de funcionalidades, como: consulta de calificaciones, consulta y justificación de faltas de asistencia, datos del centro educativo, horario y calendario escolar, mensajería interna, etc</p>
+                </div>
+                <div class="mb-4">
+                    <h3 class="text-secondary">Cómo obtener el usuario y la contraseña (autologin) de Pasen</h3>
+                <p>El procedimiento de "autologin" está disponible para usuarios con perfiles tutor/a legal y alumnado (tanto emancipado como no). Mediante él, cualquier padre/madre o alumno/a podrá realizar un proceso de "autologin" para obtener las credenciales de acceso a PASEN (usuario y contraseña).</p>
+                <p>realizar el "autologin" a través de la aplicación web o de la app iPasen, las familias deberán pinchar en el enlace 'No tengo acceso' de la pantalla de login de la página principal de Pasen: http://portalseneca.ced.junta-andalucia.es/educacion/portalseneca/web/pasen/inicio.</p>
+                <p>Se requerirán tres datos: el NIF, una fecha de nacimiento (de algunos de sus hijos/as o la suya propia) y un número de teléfono móvil donde recibirá por SMS las credenciales. Este último deberá coincidir con el que consta en Séneca para los tutores legales o para el alumnado (consulte con el Instituto en caso de duda o necesidad de actualizar el número de teléfono).</p>
+                </div>
+
+                <div class="mb-4 text-center pt-5">
+                    <p>Video explicativo:</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3z6eWjQWnuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+           </div>
+
+          </div>
+
+          <!-- Convalidaciones -->
+          <div class="tab-pane fade" id="contConvalidaciones" role="tabpanel" aria-labelledby="messages-tab">
+            <div class="container-flex">
+                <div class="row">
+                    <h2>Solicitud Convalidación módulos.</h2>
+                </div>
+                <div class="row text-start pt-4">
+                    <p>Para solicitar la convalidación de algún módulo tienes que presentar el <a class="" href="https://www.iesruizgijon.es/images/ciclos/documentos/ANEXO_IV._Convalidaciones.Orden_ECD-2159-2014.pdf">Anexo IV</a> junto con un certificado de
+                        notas (<span class="fw-bold">Anexo XI</span>) en el que aparezcan los códigos de los módulos (solo el alumnado que no haya cursado la materia a convalidar en nuestro Centro) en la Secretaría del Centro o enviarlo a ciclos@iesruizgijon.com.</p>
+                    <p>El periodo para la convalidación de módulos finaliza el <span class="fw-bold">15 de octubre</span>.</p>
+                    <p>Para matrículas en periodo extraordinario, el plazo de entrega de la solicitud de convalidación y de la documentación es de una semana desde el momento en que <span class="fw-bold">se hace efectiva la matriculación.</span></p>
+                    <div class="justify-content-center">
+                        <ul>
+                            <li>
+                                <a href="https://www.iesruizgijon.es/images/ciclos/documentos/ANEXO_IV._Convalidaciones.Orden_ECD-2159-2014.pdf">Anexo IV (Orden EXD/2159/2014, 7 de noviembre)</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p>Más información: <a href="https://www.todofp.es/pruebas-convalidaciones/convalidaciones-equivalencias-homologaciones/convalidaciones.html">Convalidación en Formación profesional</a></p>
+                </div>
+            </div>
+          </div>
+
+          <!-- FCT -->
+          <div class="tab-pane fade" id="contFCT" role="tabpanel" aria-labelledby="zona-smr">
+            <div>
+                <div class="row">
+                    <h2>Exención módulo FCT</h2>
+                </div>
+                <div class="row text-start pt-3">
+                    <h4 class="pb-4">Procedimineto para solicitar la exención total o parcial de la FCT</h4>
+                    <p>
+                        Podrán solicitar la exención total o parcial del módulo profesional de Formación en Centros de Trabajo por su correspondencia con la práctica laboral, todos aquellos alumnos y alumnas que acrediten una experiencia laboral de
+                        <span class="fw-bold"> al menos un año a tiempo completo, relacionada con el ciclo formativo en el que estén</span> matriculados que permita demostrar que la persona solicitante tiene adquiridos los resultados de aprendizaje del módulo
+                        profesional de formación en centros de trabajo. En el caso de contratos a tiempo parcial, los días de cotización deberán ser equivalentes a un año a tiempo completo.
+                    </p>
+                </div>
+                <div class="row text-start pt-2">
+                    <h4 class="pb-4">Presentación de solicitudes y documentación</h4>
+                    <p>La solicitud de exención (Anexo I), así como la documentación acreditativa, se presentará en la secretaría del centro docente donde el alumnado se encuentre matriculado y a las mismas <span class="fw-bold">se adjuntará</span> la siguiente
+                        documentación:
+                    </p>
+                    <div>
+                        <ol type="a">
+                            <li>Para trabajadores o trabajadoras asalariados:</li>
+                            <ul>
+                                <li class="pt-2"><span class="fw-bold">Certificación de la Tesorería General</span> de la Seguridad Social, del Instituto Social de la Marina o de la Mutualidad a la que estuvieran afiliadas, donde conste la empresa, la categoría laboral (grupo
+                                    de cotización) y el período de cotización.</li>
+                                <li class="pt-2"><span class="fw-bold">Contrato de trabajo o certificación de la empresa</span> donde hayan adquirido la experiencia laboral, en el que conste específicamente la duración de los periodos de prestación del contrato, la actividad
+                                    desarrollada y el intervalo de tiempo en el que se ha realizado dicha actividad.</li>
+                            </ul>
+                            <li>Para trabajadores o trabajadoras autónomos por cuenta propia:</li>
+                            <ul>
+                                <li class="pt-2"><span class="fw-bold">Certificación de la Tesorería General</span> de la Seguridad Social o del Instituto Social de la Marina de los perídos de alta en la Seguridad Social en el régimen especial correspondiente.</li>
+                                <li class="pt-2"><span class="fw-bold">Descripción de la actividad desarrollada</span>e intervalo de tiempo en el que se ha realizado la misma.</li>
+                            </ul>
+                            <li>Para trabajadores o trabajadoras voluntarios o becarios:</li>
+                            <ul>
+                                <li class="pt-2">Certificación de la organización donde se haya prestado la asistencia<span class="fw-bold">en la que consten, específicamente, las actividades y funciones realizadas, el año en el que se han realizado y el número total de horas dedicadas a las mismas.</span></li>
+                            </ul>
+                        </ol>
+                    </div>
+                    <div>
+                        <h4 class="pb-2 pt-2">Procedimineto para solicitar la exención total o parcial de la FCT</h4>
+                        <p class="pb-2">
+                            La solicitud, junto con la documentación correspondiente, deberá presentarla el interesado, <span class="fw-bold">al menos un mes antes de la fecha de inicio del módulo profesional</span> de Formación en Centros de trabajo, del
+                            ciclo formativo de Formación Profesional Incial en el que esté matriculado.
+                        </p>
+                        <p class="pb-2">
+                            Cuando el alumno se matricule sólo del módulo profesional de formación en centros de trabajo y si procede, el de proyecto, esta solicitud se entregará en el momento de formalizar la matricula.
+                        </p>
+                        <p class="pb-2">
+                            La solicitud debidamente cumplimentada se entregará en la SECRETARÍA del Centro docente.
+                        </p>
+                        <p class="pb-2">
+                            En caso necesario, el Equipo Docente del ciclo formativo podrá recabar por escrito a los interesados cuanta información complementaria considere conveniente. </p>
+                    </div>
+                    <div>
+                        <h4 class="pb-2 pt-2">Resolución de la solicitud de exención</h4>
+                        <p class="pb-2">
+                            Corresponde a la persona titular de la dirección del centro docente donde conste el expediente académico del alumno o alumna, resolver la solicitud de exención del módulo de formación en centros de trabjao, que podrá ser total o parcial.
+                        </p>
+                        <p class="pb-2">
+                            La resolución de la exención será comunicada por escrito a la persona solicitante con al menos 10 días antes del comienzo de las actividades propias del módulo profesional de Formación en Centros de trabajo.
+                        </p>
+                    </div>
+                    <div>
+                        <h4 class="pb-2 pt-2">Reclamaciones</h4>
+                        <p class="pb-2">
+                            Los interesados podrán interponer recurso de alzada ante la persona titular de la Delegación Provincial de la Conserjería con competencias en materia de educación, que conocerá y resolverá el recurso por delegación de la persona titular de la Conserjería.
+                        </p>
+                    </div>
+                    <p>Solicitud: <a href="https://www.iesruizgijon.es/images/ciclos/documentos/solicitud-exencion-fct_editable.pdf">Anexo I rellenable</a></p>
+                    <p>Normativa completa: <a href="https://www.juntadeandalucia.es/boja/2011/206/1">Orden de 28 de septiembre de 2011</a></p>
+                </div>
+            </div>
+          </div>
+
+          <!-- Instancia -->
+          <div class="tab-pane fade" id="contInstancia" role="tabpanel" aria-labelledby="home-tab">
+              <div class="container-flex">
+                <div class="row">
+                    <div class="col">
+                        <h2>Instancia Ciclos</h2>
+                        <p class="p-3">Descarga, imprime y entrega en Jefatura de Estudios o envía al correo <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTNHjkLWkxmBxdZZLRwHHWLWXnsnmKdqhsJnrjZmlMHnBBbnBBSlqgWLHvPDMDSZdtMGDB">ciclos@iesruizgijon.com</a> el siguiente documento: <a href="https://www.iesruizgijon.es/images/ciclos/documentos/Instancia_ciclos_IESRuizGijón.pdf">Instancia ciclos IES Ruiz Gijón.</a></p>
+                    </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- Itinerario Formativo -->
+          <div class="tab-pane" id="itinerarios" role="tabpanel" aria-labelledby="profile-tab">
+            <div>
+                <div class="row pb-2 pt-2">
+                    <h2>Itinerario formativo CFGS "DAW"</h2>
+                </div>
+                <div class="row text-start pt-4">
+                    <p class="pb-2">
+                        A continuación os mostramos las <span class="fw-bold">orientaciones</span> para elegir el <span class="">itinerario formativo</span> que el Departamento de Informática del IES Ruiz Gijón recomienda seguir al alumnado que cursa el Ciclo
+                        "Desarrollo de Aplicaciones Web" en <span class="">oferta parcial</span>, tal y como queda recogido en la Programación Educativa del Ciclo:
+                    </p>
+    
+                    <p><span class="text-uppercase">Módulos profecionales con formación báisca o de soporte y su relación con los de 2º curso</span> (por tanto, es necesario <span class="fw-bold">haber superado el de primero</span>):</p>
+                    <ul class="mx-auto w-75 pt-2">
+                        <li>Sistemas Informáticos (1º DAW) -> Despliegue de Aplicaciones Web (2º DAW)</li>
+                        <li>Bases de Datos (1º DAW) -> Desarrollo Web en Entorno Servidor (2º DAW)</li>
+                        <li>Programación (1º DAW) -> Desarrollo Web en Entorno Servidor y Desarrollo Web en Entorno Cliente (2º DAW)</li>
+                        <li>Lenguajes de Marcas y Sistemas de Gestión de Información (1º DAW) -> Desarrollo Web en Entorno Cliente, Desarrollo Web en Entorno Servidor y Diseño de Interfaces Web (2º DAW).</li>
+                    </ul>
+    
+                    <p class="pt-4"><span class="text-uppercase">Módulos profesionales con formación complementaria entre ambos</span> (<span class="fw-bold">se aconsejan cursos simultáneamente</span>):</p>
+                    <ul class="mx-auto w-75 pt-2">
+                        <li>Programación (1º DAW) + Entornos de Desarrollo (1º DAW)</li>
+                        <li>Desarrollo Web en Entorno Cliente (2º DAW) + Desarrollo Web en Entorno Servidor (2º DAW) + Despliegue de Aplicaciones Web (2º DAW) + Diseño de Interfaces Web (2º DAW)</li>
+                    </ul>
+    
+                    <p class="pt-4"><span class="text-uppercase">MÓDULOS PROFESIONALES CON FORMACIÓN TRANSVERSAL:</span>:</p>
+                    <ul class="mx-auto w-75 pt-2">
+                        <li>Lenguajes de Marcas y Sistemas de Gestión de Información</li>
+                        <li>Sistemas Informáticos</li>
+                        <li>Bases de Datos</li>
+                        <li>Programación</li>
+                        <li>Entornos de Desarrollo</li>
+                        <li>Formación y orientación laboral</li>
+                        <li>Empresa e iniciativa emprendedora</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+        
     </div>
-    <div data-aos="fade-up" id="pruebaSMR" class="text-center m-5 p-5 w-75">
-        SSSSMMMMRRRR Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum exercitationem dignissimos a aliquid illum eos voluptate optio fuga quas distinctio! Adipisci, voluptas accusamus. Dicta sint pariatur possimus nemo dignissimos praesentium?
-    </div>
-    <footer class="p-5">
-        FOOTER
+
+    <footer class="p-5 bg-secondary text-white">
+        <div class="row">
+            <div class="col-md-7 text-center">
+                <h3>Ubicación</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3178.6071828043173!2d-5.777215049399436!3d37.18580525349973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd127fa80bd7d143%3A0x9fa974b82c133ef6!2sInstituto%20de%20Educaci%C3%B3n%20Secundaria%20Ruiz%20Gij%C3%B3n!5e0!3m2!1ses!2ses!4v1646444286791!5m2!1ses!2ses" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="col-md-5">
+                <h3 class="pb-2 text-center text-md-start mt-4 mt-md-0">Contacto</h3>
+                <ul class="list-unstyled text-center text-md-start">
+                    <li>IES RUIZ GIJÓN</li>
+                    <li>C/ Paseo de Consolación nº 1 - 41710 Utrera (Sevilla)</li>
+                    <li>Tlfno.: 95 583 95 73</li>
+                    <li>Email: <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXPWVLhdcvpCwfqQKdTWSqXFNGhNTJshMvBBLqTxswtXBcDZRDgHnlCsszfVBRJRxlBKn">41007898.edu@juntadeandalucia.e</a>, <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTNHjkLWkxmBxdZZLRwHHWLWXnsnmKdqhsJnrjZmlMHnBBbnBBSlqgWLHvPDMDSZdtMGDB">ciclos@iesruizgijon.com</a></li>
+                    <li>Fax: 95 583 95 79</li>   
+                </ul>
+                <p class="text-center text-md-start">Secretaría: de 9:30 a 13:00 h. de Lunes a Viernes</p></p>
+               
+            </div>
+        </div>
     </footer>
     <script src="../Bloque 2/BOOTSTRAP/bootstrap local/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js "></script>
-    <style>
-        #prueba {
-            display: none;
-        }
-        
-        #pruebaSMR {
-            display: none;
-        }
-    </style>
     <script>
         contador1 = 1
 
