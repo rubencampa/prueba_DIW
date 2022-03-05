@@ -4,7 +4,7 @@
 
 #carouselExampleControlsNoTouching {
     box-shadow: 0px 5px 10px 10px black;
-    height: 410px;
+    max-width: 800px;
 }
 
 .sabermas {
@@ -34,4 +34,12 @@
 
 .bg-header{
     background-color: lightgrey!important;
+}
+
+.nav li:hover{
+    background-color: lightslategray;
+}
+
+.email{
+    color: lightblue;
 }
